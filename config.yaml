@@ -1,0 +1,10 @@
+global:
+  version: 1
+  duration: 1y
+
+targets:
+  - alias: Test
+    path: /Users/adrianschneider/restic
+    password: test
+    groupBy:
+      - tags
